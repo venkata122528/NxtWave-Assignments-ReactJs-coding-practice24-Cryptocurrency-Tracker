@@ -1,0 +1,52 @@
+/* Write your CSS code here */
+.cryptocurrenciesListContainer {
+  height: 90%;
+  width: 90%;
+}
+
+.mainTitle {
+  text-align: center;
+  color: #00e7ff;
+  font-family: 'Roboto';
+  font-weight: 40px;
+  font-weight: 400;
+}
+
+.cryptoImage {
+  height: 45%;
+  width: 100%;
+}
+
+.cryptoCurrencyDataContainer {
+  border-style: solid;
+  border-color: #00e7ff;
+  border-width: 5px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.header {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+  height: 75px;
+  background-color: #092e33;
+}
+
+.coinTypeTitle {
+  width: 70%;
+}
+
+.usdEuroTitleContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
